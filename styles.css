@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  background-color: #ff8000;
+}
+
+.header-container h1 {
+  margin: 0;
+  justify-self: center;
+}
+
+.header-container img { justify-self: start; }
+
+.header-login {
+  width: 200px;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    width: 900px;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #FFBB34;
+}
+
+.main-container {
+    width: 900px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.center-side { flex: 1 1 auto; min-width: 0; padding: 5px; }
+
+.left-side  { flex: 0 0 150px; box-sizing: border-box; background-color: #ff8000;}
+.right-side { flex: 0 0 190px; box-sizing: border-box; background-color: #ff8000;}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* <= горизонтальный центр */
+  text-align: center;  /* для инлайнов (текст, ссылки, изображения) */
+  gap: 8px;
+}
+
+.left-side ol {
+  text-align: left;        /* оставить читаемость меню */
+  margin: 0;
+  padding-left: 16px;
+}
+
+.right-side img { display: block; margin: 0 auto; }
+.right-side a { text-decoration: none; }
+.right-side p { margin: 4px 0 12px; }
+
+
+.footer {
+    width: 900px;
+    background-color: #ff8000;
+    text-align: center;
+    padding: 5px;
+}

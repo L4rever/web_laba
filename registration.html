@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="header-container">
+    <img src="./coffee.jpg" width="50px" height="50px" alt="coffee">
+    <h1>КОФЕМАНИЯ</h1>
+    <div class="header-login" width="200">
+      <input type="text" value="логин">
+      <input type="password" value="пароль">
+      <input type="submit" value="войти"> 
+      <a href="./registration.html">Регистрация</a>
+    </div>
+  </header> 
+
+<nav class="nav-bar">
+    <a href="#registration">Регистрация</a>
+</nav>
+
+<br>
+
+<main class="main-container">
+ <div class="flex-container">
+  <div class="left-side">
+   <ol type="1">
+    <li> <a href="./index.html">Главная</a>
+    <li> <a href="./catalog.html">Каталог</a>
+    <li> <a href="./contacts.html">Контакты</a>
+    <li> <a href="./about.html">О нас</a>
+   </ol>
+  </div>
+  <div class="center-side">
+     
+                <form action="#" method="post" autocomplete="on"
+      style="max-width:520px;margin:0 auto;padding:16px;border:1px solid #ccc;border-radius:10px;background:#fff;">
+                    <h2 id="registration" style="margin:0 0 12px;text-align:center;">Регистрация</h2>
+
+                    <label style="display:block;margin:10px 0 6px;">Имя</label>
+                    <input type="text" name="first_name" required minlength="2" placeholder="Иван"
+                            style="width:50%;padding:10px;border:1px solid #bbb;border-radius:6px;">
+
+                    <label style="display:block;margin:12px 0 6px;">Фамилия</label>
+                    <input type="text" name="last_name" required minlength="2" placeholder="Иванов"
+                            style="width:50%;padding:10px;border:1px solid #bbb;border-radius:6px;">
+
+                    <label style="display:block;margin:12px 0 6px;">Email</label>
+                    <input type="email" name="email" required placeholder="you@example.com"
+                            style="width:50%;padding:10px;border:1px solid #bbb;border-radius:6px;">
+
+                    <label style="display:block;margin:12px 0 6px;">Телефон (необязательно)</label>
+                    <input type="tel" name="phone" placeholder="+7 777 123-45-67"
+                            pattern="^\+?\d[\d\s\-\(\)]{7,}$"
+                            style="width:50%;padding:10px;border:1px solid #bbb;border-radius:6px;">
+
+                    <label style="display:block;margin:12px 0 6px;">Пароль</label>
+                    <input type="password" name="password" required minlength="6" placeholder="Минимум 6 символов"
+                            style="width:50%;padding:10px;border:1px solid #bbb;border-radius:6px;">
+
+                    <label style="display:block;margin:12px 0 6px;">Повторите пароль</label>
+                    <input type="password" name="password_confirm" required
+                            style="width:50%;padding:10px;border:1px solid #bbb;border-radius:6px;">
+                    
+                    <div style="margin:12px 0; display:flex; align-items:flex-start;">
+                        <input type="checkbox" id="privacy-policy" name="privacy-policy" required
+                               style="margin:4px 8px 0 0; width:16px; height:16px; flex-shrink:0;">
+                        <label for="privacy-policy" style="display:inline; margin:0; font-size:14px;">
+                            Я согласен с <a href="./privacy-policy.html">политикой обработки персональных данных</a>
+                        </label>
+                    </div>
+                    
+                    <button type="submit"
+                            style="width:100%;padding:12px;border:0;border-radius:8px;background:#ff8000;cursor:pointer;font-weight:600;">
+                        Создать аккаунт
+                    </button>
+                </form>
+
+
+ </div>
+   <div class="right-side">
+  <input type="text" value="поиск"><br>
+  <input type="button" value="искать"><br><br>
+
+			<a href="https://eda.yandex.ru/">
+				<img src="banner1.jpg" alt="mandaRaf" width="100" height="100">
+				<BR>
+				<p>Яндекс Еда</p>
+				<BR>
+			</a>
+			
+			<a href="https://craftsofrussia.com/">
+				<img src="banner2.jpg" alt="whiteCocoa" width="100" height="100">
+				<BR>
+				<p>Магазин посуды</p>
+				<BR>
+			</a>
+
+			<a href="https://msk.burobiz.ru/businesses/buy-produktovyy-magazin-s-vysokim-oborotom-33167">
+				<img src="banner3.jpg" alt="whiteCocoa" width="100" height="100">
+				<BR>
+				<p>Магазин еды</p>
+				<BR>
+			</a>
+		</div>
+	</div>
+</main>
+
+<br>
+
+<footer class="footer" width="900" bgcolor="ff8000" align="center">
+	<tr>
+		<td align="center">© Все права защищены 2025</td>
+	</tr>
+</footer>
+</body>
+</html>
