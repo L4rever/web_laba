@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Структура проекта - Проверка работоспособности</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .structure {
+            background-color: #f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-family: monospace;
+        }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .link-item {
+            padding: 10px;
+            background-color: #e9e9e9;
+            border-radius: 3px;
+            text-align: center;
+        }
+        .link-item a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .link-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Структура проекта после реорганизации</h1>
+        
+        <div class="structure">
+            laba1_web/<br>
+            ├── css/<br>
+            │   └── styles.css<br>
+            ├── images/<br>
+            │   ├── americano.jpg<br>
+            │   ├── babidjon.jpg<br>
+            │   ├── banner1.jpg<br>
+            │   ├── banner2.jpg<br>
+            │   ├── banner3.jpg<br>
+            │   ├── carbonara.jpg<br>
+            │   ├── coffee.jpg<br>
+            │   ├── coffee_image.jpg<br>
+            │   ├── mandaRaf.jpg<br>
+            │   ├── melanzena.jpg<br>
+            │   ├── olivie.jpg<br>
+            │   ├── pelmeni.jpg<br>
+            │   ├── pelmeni_chinazes.jpg<br>
+            │   ├── whiteCocoa.jpg<br>
+            │   └── maket09.jpg<br>
+            ├── pages/<br>
+            │   ├── about.html<br>
+            │   ├── americano.html<br>
+            │   ├── barbizon.html<br>
+            │   ├── carbonara.html<br>
+            │   ├── catalog.html<br>
+            │   ├── contacts.html<br>
+            │   ├── index.html<br>
+            │   ├── mandaRaf.html<br>
+            │   ├── melanzena.html<br>
+            │   ├── olivie.html<br>
+            │   ├── pelmeni.html<br>
+            │   ├── pelmeni_v_bulone.html<br>
+            │   ├── privacy-policy.html<br>
+            │   ├── registration.html<br>
+            │   └── whiteCocoa.html<br>
+            └── project_structure.html (этот файл)
+        </div>
+        
+        <h2>Ссылки для проверки работоспособности:</h2>
+        <div class="links">
+            <div class="link-item"><a href="pages/index.html" target="_blank">Главная</a></div>
+            <div class="link-item"><a href="pages/catalog.html" target="_blank">Каталог</a></div>
+            <div class="link-item"><a href="pages/about.html" target="_blank">О нас</a></div>
+            <div class="link-item"><a href="pages/contacts.html" target="_blank">Контакты</a></div>
+            <div class="link-item"><a href="pages/registration.html" target="_blank">Регистрация</a></div>
+            <div class="link-item"><a href="pages/privacy-policy.html" target="_blank">Политика конфиденциальности</a></div>
+            <div class="link-item"><a href="pages/mandaRaf.html" target="_blank">Мандариновый раф</a></div>
+            <div class="link-item"><a href="pages/whiteCocoa.html" target="_blank">Белое какао</a></div>
+            <div class="link-item"><a href="pages/americano.html" target="_blank">Американо</a></div>
+            <div class="link-item"><a href="pages/melanzena.html" target="_blank">Меланжена</a></div>
+            <div class="link-item"><a href="pages/olivie.html" target="_blank">Оливье</a></div>
+            <div class="link-item"><a href="pages/barbizon.html" target="_blank">Барбизон</a></div>
+            <div class="link-item"><a href="pages/pelmeni.html" target="_blank">Пельмени</a></div>
+            <div class="link-item"><a href="pages/pelmeni_v_bulone.html" target="_blank">Пельмени в бульоне</a></div>
+            <div class="link-item"><a href="pages/carbonara.html" target="_blank">Карбонара</a></div>
+        </div>
+        
+        <p style="margin-top: 20px; text-align: center; color: #666;">
+            <strong>Проект успешно реорганизован!</strong><br>
+            Все файлы теперь находятся в соответствующих папках с корректными ссылками.
+        </p>
+    </div>
+</body>
+</html>
